@@ -25,7 +25,7 @@ namespace NppDB.MSAccess
             };
             Warnings.Add(warning);
         }
-        
+
         public void AddWarning(IToken token, ParserMessageType type)
         {
             var warning = new ParserWarning
